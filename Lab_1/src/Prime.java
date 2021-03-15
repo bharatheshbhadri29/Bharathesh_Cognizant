@@ -1,6 +1,6 @@
 /**
 *Name : L BHARATHESH
-*Description : Compilation and Running Sum of Cube of Digits of an n Digit Number
+*Description : Compilation and Running Prime Number
 *Date : 14/03/2021
  */
 

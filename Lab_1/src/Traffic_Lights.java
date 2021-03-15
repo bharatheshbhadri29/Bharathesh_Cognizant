@@ -1,6 +1,6 @@
 /**
 *Name : L BHARATHESH
-*Description : Compilation and Running Sum of Cube of Digits of an n Digit Number
+*Description : Compilation and Running Traffic Lights
 *Date : 14/03/2021
  */
 
@@ -15,20 +15,20 @@ public class Traffic_Lights {
 		
 		System.out.println("Enter Your Choice: ");
 		Scanner n = new Scanner(System.in);
-		int Choice = n.nextInt();
-		String Comm = null;
-		switch (Choice) {
+		int choice = n.nextInt();
+		String comm = null;
+		switch (choice) {
 		case 1 :
-			Comm = "Stop";
+			comm = "Stop";
 			break;
 		case 2 :
-			Comm = "Ready";
+			comm = "Ready";
 			break;
 		case 3 :
-			Comm = "Go";
+			comm = "Go";
 			break;
 		}
-		System.out.println(Comm);
+		System.out.println(comm);
 	}
 
 }
