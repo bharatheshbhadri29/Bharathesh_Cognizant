@@ -9,7 +9,12 @@ import java.util.Scanner;
 import java.lang.Math;
 
 public class Difference_of_Squares {
-	
+	/**
+	 * calculateDifference method computes the difference between the sum of the 
+	 * squares of the first n natural numbers and the square of their sum.
+	 * @param k
+	 * @return difference b/w sum of square to square of sum
+	 */
 	public static int calculateDifference(int k) {
 		
 		int sum = 0 , sumOfSquares = 0, squareOfSum = 0;

@@ -24,11 +24,11 @@ public class Sum_of_NaturalNo_3_5 {
 		
 		System.out.println("Enter a Number : ");
 		Scanner x = new Scanner(System.in);
-		int n = x.nextInt();
+		int number = x.nextInt();
 		
 		
 		int sum = calculateSum(n);
-		System.out.println("The Sum of first " + n + " Natural Numbers Divisible by 3 or 5 is " + sum);
+		System.out.println("The Sum of first " + number + " Natural Numbers Divisible by 3 or 5 is " + sum);
 		
 	}
 

@@ -16,19 +16,19 @@ public class Traffic_Lights {
 		System.out.println("Enter Your Choice: ");
 		Scanner n = new Scanner(System.in);
 		int choice = n.nextInt();
-		String comm = null;
+		String comment = null;
 		switch (choice) {
 		case 1 :
-			comm = "Stop";
+			comment = "Stop";
 			break;
 		case 2 :
-			comm = "Ready";
+			comment = "Ready";
 			break;
 		case 3 :
-			comm = "Go";
+			comment = "Go";
 			break;
 		}
-		System.out.println(comm);
+		System.out.println(comment);
 	}
 
 }
